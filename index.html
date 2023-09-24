@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Shopping</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="./scripts/controllers/product-controller.js" type="module"></script>
+</head>
+<body>
+    <header class="m-2">
+        <div class="logo">
+            <img src="logo1.png" alt="">
+        </div> 
+    </header>
+    <div class="container">
+   <h1 class="alert alert-info text-center">Pizza Shop</h1>
+   <div class="row">
+        <div class="col-8">
+           <div class="row" id="output">
+            
+             
+             
+                 <!-- Here Dynamic Columns , Card are Created...-->
+              
+                  </div>
+                  </div>
+                  <!-- start basket -->
+                  <div class="col-4 border border-1">
+                    <h2 class="text-center">Your Basket</h2>
+                    <div class="card-body">
+                        <div class="m-1">
+                            <a href="#" id="applyCoupon" class="btn btn-warning col-12">ApplyCoupon</a>
+                        </div>
+                        <div class="card border-1 border-light-subtle m-1">
+                            Total Pizza:
+                            <!-- <span>3</span>
+                            <span>Subtotal: 12000</span>
+                            <span>Tax: 1000</span>
+                            <span>Total: 13000</span>
+                        -->
+                        <div class="col-4" >
+                            <ul id="basket">
+                               
+                            </ul>
+                        </div>
+
+                        </div>
+                        <h5 class="">Minimum cart value for delivery is ₹200</h5>
+                        <a href="#" id="clickMe" class="btn btn-success col-12">Check out</a>
+                    </div>
+                   
+
+
+                  <!-- end basket -->
+                  
+                  </div>
+                  </div>
+                  </body>
+                  </html>
